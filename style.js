@@ -15,7 +15,7 @@
 			name: 'panamericanaprov',
 			styles: [
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título Alejandro', element: 'h4', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 
