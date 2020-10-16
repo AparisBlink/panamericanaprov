@@ -2,7 +2,7 @@
 	'use strict';
 
 	var PanamericanaprovStyle = function () {
-			blink.theme.styles.modern.apply(this, arguments);
+			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
