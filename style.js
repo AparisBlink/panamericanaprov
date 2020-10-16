@@ -7,8 +7,8 @@
 		page = blink.currentPage;
 
 	PanamericanaprovStyle.prototype = {
-		//BK-15873 añadimos el estilo modern como parent para la herencia de los estilos del CKEditor
-		parent: blink.theme.styles.modern.prototype,
+		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
+		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_panamericanaprov',
 		extraPlugins: ['image2'],
 		ckEditorStyles: {
@@ -123,7 +123,7 @@
 		//BK15873 Quitamos la funcion getEditorStyles para que herede de parent
 	};
 
-	PanamericanaprovStyle.prototype = _.extend({}, new blink.theme.styles.modern(), PanamericanaprovStyle.prototype);
+	PanamericanaprovStyle.prototype = _.extend({}, new blink.theme.styles.basic(), PanamericanaprovStyle.prototype);
 
 	blink.theme.styles.panamericanaprov = PanamericanaprovStyle;
 
