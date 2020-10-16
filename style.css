@@ -22,11 +22,11 @@
         margin-bottom: 10px;
     }
 
-    .is_app.content_type_clase_modern {
+    .is_app.content_type_clase_panamericanaprov {
         padding-top: 0px;
     }
 
-    .content_type_clase_modern #actividad {
+    .content_type_clase_panamericanaprov #actividad {
         margin-bottom: 0px;
         -webkit-transform: none;
         -webkit-transform-style: flat;
@@ -46,8 +46,8 @@
         margin-top: 75px;
     }
 
-    .content_type_clase_modern #actividad .content .header .title img,
-    .content_type_clase_modern #actividad .content .header .chapter {
+    .content_type_clase_panamericanaprov #actividad .content .header .title img,
+    .content_type_clase_panamericanaprov #actividad .content .header .chapter {
         display: none;
     }
 
@@ -57,17 +57,17 @@
         visibility: hidden;
     }
 
-    .content_type_clase_modern #actividad .content .header {
+    .content_type_clase_panamericanaprov #actividad .content .header {
         border: none;
     }
 
-    .content_type_clase_modern #actividad .content .header .title {
+    .content_type_clase_panamericanaprov #actividad .content .header .title {
         margin-top: -40px;
         padding-top: 30px;
         padding-bottom: 10px;
     }
 
-    .content_type_clase_modern #actividad .content .header .title h3 {
+    .content_type_clase_panamericanaprov #actividad .content .header .title h3 {
         font-family: 'Raleway', Georgia, serif;
         font-size: 4.0rem;
         font-weight: bold;
@@ -77,13 +77,13 @@
         margin-top: -43px;
         margin-bottom: 20px;
     }
-    .content_type_clase_modern #actividad .content .header .title h3 span {
+    .content_type_clase_panamericanaprov #actividad .content .header .title h3 span {
         display: block;
         font-size:2.2rem;
         font-weight: 400;
     }
-    .content_type_clase_modern #actividad .texto_curso,
-    .content_type_clase_modern #actividad .slide_content_type_1 .pregunta .texto_curso {
+    .content_type_clase_panamericanaprov #actividad .texto_curso,
+    .content_type_clase_panamericanaprov #actividad .slide_content_type_1 .pregunta .texto_curso {
         font-size: 1.6rem;
     }
 
@@ -107,7 +107,7 @@
         padding-bottom: 100px;
     }
 
-    .content_type_clase_modern .slide_main input {
+    .content_type_clase_panamericanaprov .slide_main input {
         color: #555;
         background-color: #fff;
         background-image: none;
@@ -119,7 +119,7 @@
         transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     }
 
-    .content_type_clase_modern .slide_main input:focus {
+    .content_type_clase_panamericanaprov .slide_main input:focus {
         border-top-color: #3AC62A;
         border-right-color: #3AC62A;
         border-bottom-color: #3AC62A;
@@ -129,25 +129,25 @@
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
     }
 
-    .content_type_clase_modern .slide_main input[disabled],
-    .content_type_clase_modern .slide_main input[readonly],
-    fieldset[disabled] .content_type_clase_modern .slide_main input {
+    .content_type_clase_panamericanaprov .slide_main input[disabled],
+    .content_type_clase_panamericanaprov .slide_main input[readonly],
+    fieldset[disabled] .content_type_clase_panamericanaprov .slide_main input {
         cursor: not-allowed;
         background-color: #eee;
         opacity: 1;
     }
 
-    .content_type_clase_modern .slide_main input.respuesta_ok {
+    .content_type_clase_panamericanaprov .slide_main input.respuesta_ok {
         border-color: #57e900;
         background: #D1F3BD;
     }
 
-    .content_type_clase_modern .slide_main input.respuesta_ko {
+    .content_type_clase_panamericanaprov .slide_main input.respuesta_ko {
         border-color: #FF3626;
         background: #FFA49D;
     }
 
-    .content_type_clase_modern .slide_main input.solucion {
+    .content_type_clase_panamericanaprov .slide_main input.solucion {
         border-color: #00BDFF;
         background: #B6ECFF;
     }
@@ -287,7 +287,7 @@
 /**/
 
 /* Navbar (Breadcums) */
-    .content_type_clase_modern .publisher-navbar {
+    .content_type_clase_panamericanaprov .publisher-navbar {
         position: fixed;
         top: 44px;
         background: #ffffff;
@@ -298,11 +298,11 @@
     }
 
     /* BK-18572 Ajustar estilo en UX */
-    .content_type_clase_modern .publisher-navbar.tmpux {
+    .content_type_clase_panamericanaprov .publisher-navbar.tmpux {
         top: 0px;
     }
 
-    .is_app.content_type_clase_modern .publisher-navbar {
+    .is_app.content_type_clase_panamericanaprov .publisher-navbar {
         position: sticky;
         top: 0px;
     }
@@ -326,18 +326,18 @@
         background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
     }
 
-    .content_type_clase_modern .publisher-navbar .navbar-content {
+    .content_type_clase_panamericanaprov .publisher-navbar .navbar-content {
         max-width: 960px;
         margin: 0 auto;
         padding-left: 90px;
         padding-right: 50px;
     }
 
-    .content_type_clase_modern .logo-publisher {
+    .content_type_clase_panamericanaprov .logo-publisher {
         display: block;
         margin-left: -48px;
     }
-    .content_type_clase_modern .logo-publisher {
+    .content_type_clase_panamericanaprov .logo-publisher {
         content: " ";
         background-image: url(logo-blink.png);
         height: 36px;
@@ -349,7 +349,7 @@
         background-size: contain;
     }
 
-    .content_type_clase_modern .slider-indicators {
+    .content_type_clase_panamericanaprov .slider-indicators {
         padding: 0;
         display: inline-block;
         text-align: center;
@@ -363,8 +363,8 @@
     }
 
 
-    .content_type_clase_modern .publisher-navbar .dropdown button,
-    .content_type_clase_modern .publisher-navbar li {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown button,
+    .content_type_clase_panamericanaprov .publisher-navbar li {
         border-radius: 5px;
         border: none;
         background-color: transparent;
@@ -379,12 +379,12 @@
         background: #5ebdb2;
         border-radius: 120px;
     }
-    .content_type_clase_modern .publisher-navbar .dropdown button {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown button {
         background: none;
         color: #5ebdb2;
     }
 
-    .content_type_clase_modern .slider-indicators:after {
+    .content_type_clase_panamericanaprov .slider-indicators:after {
         content: '';
         display: block;
         clear: both;
@@ -393,7 +393,7 @@
         height: 0;
     }
 
-    .content_type_clase_modern .slider-indicators li {
+    .content_type_clase_panamericanaprov .slider-indicators li {
         width: 35px;
         height: 35px;
         margin: 0 8px 0 0;
@@ -402,24 +402,24 @@
         position: relative;
     }
 
-    .content_type_clase_modern .slider-indicators li.active,
-    .content_type_clase_modern .publisher-navbar li:hover {
+    .content_type_clase_panamericanaprov .slider-indicators li.active,
+    .content_type_clase_panamericanaprov .publisher-navbar li:hover {
         opacity: 1;
         background:#f9bfad;
     }
 
-    .content_type_clase_modern .publisher-navbar #top-navigator {
+    .content_type_clase_panamericanaprov .publisher-navbar #top-navigator {
         float: none;
         margin-top: 10px;
         display: block;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown {
         float: left;
         display: block;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown button {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown button {
         width: auto;
         padding: 0px 10px;
     }
@@ -430,25 +430,25 @@
         overflow-y: auto;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown button {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown button {
         border: none;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown button:focus {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown button:focus {
         outline: none;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown li {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown li {
         display: list-item;
         width: auto;
         background: none;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown li a {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown li a {
         color: #5ebdb2;
     }
 
-    .content_type_clase_modern .publisher-navbar .dropdown .caret {
+    .content_type_clase_panamericanaprov .publisher-navbar .dropdown .caret {
         border-color: #5ebdb2 transparent transparent transparent;
         margin-left: 6px;
 
@@ -477,7 +477,7 @@
 /* Iconos */
 
 #actividad .player.audio {
-    background: url(images/modern_audio.png) 0 0 no-repeat;
+    background: url(images/panamericanaprov_audio.png) 0 0 no-repeat;
     background-size: contain;
     width: 36px;
     height:24px;
@@ -487,7 +487,7 @@
 }
 
 #actividad .player.video {
-    background: url(images/modern_video.png) 0 0 no-repeat;
+    background: url(images/panamericanaprov_video.png) 0 0 no-repeat;
     background-size: contain;
     width: 36px;
     height:24px;
@@ -799,7 +799,7 @@
         border-right: 1px solid #eee;
     }
 
-    .content_type_clase_modern .logo-publisher {
+    .content_type_clase_panamericanaprov .logo-publisher {
         margin-right: 0px;
     }
 }
@@ -810,7 +810,7 @@
         padding-left: 30px;
     }
 
-    .content_type_clase_modern #actividad .content .header .title h3 {
+    .content_type_clase_panamericanaprov #actividad .content .header .title h3 {
         margin-left: -30px;
         padding-left: 20px;
         padding-right: 50px;
@@ -826,10 +826,10 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    .content_type_clase_modern .publish {
+    .content_type_clase_panamericanaprov .publish {
         padding-left: 25px;
     }
-    .content_type_clase_modern .logo-publisher {
+    .content_type_clase_panamericanaprov .logo-publisher {
         margin-left: -20px;
     }
 
@@ -851,11 +851,11 @@
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-    .content_type_clase_modern .publisher-navbar {
+    .content_type_clase_panamericanaprov .publisher-navbar {
         top: 88px;
     }
 
-    .content_type_clase_modern .logo-publisher {
+    .content_type_clase_panamericanaprov .logo-publisher {
         margin-right: -20px;
     }
 
@@ -893,11 +893,11 @@
     #actividad .carousel-inner .item-container {
         padding: 40px 20px 90px;
     }
-    .content_type_clase_modern .publisher-navbar .navbar-content {
+    .content_type_clase_panamericanaprov .publisher-navbar .navbar-content {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .content_type_clase_modern .publisher-navbar .logo-publisher:before {
+    .content_type_clase_panamericanaprov .publisher-navbar .logo-publisher:before {
         content: none;
         display: none;
 
@@ -910,7 +910,7 @@
         font-size: 2.4rem;
         width: 60px;
     }
-    .content_type_clase_modern #actividad .content .header .title h3 {
+    .content_type_clase_panamericanaprov #actividad .content .header .title h3 {
         padding-right: 20px;
         margin-bottom: 20px;
     }
@@ -931,7 +931,7 @@ div.calculo table.marco * {
     border-top: 2px dashed #f9bfad !important;
 }
 
-.content_type_clase_modern .slide_main input {
+.content_type_clase_panamericanaprov .slide_main input {
     border: 1px solid #ccc !important;
 }
 
@@ -943,542 +943,6 @@ div.calculo table.marco * {
 
 
 
-
-h3 {
-    text-align: center;
-}
-
-strong {
-font-weight: 900;
-color: black !important;
-}
-
-.js-slide-wrapper > .header .single-pagination {
-    display: none;
-}
-
-#actividad .workspace.matching .opcion {
-    border: 0px solid #ef8007;
-    margin: 4px 0;
-    padding: 5px;
-    background: #fac592;
-}
-
-.content_type_clase_panamericanaprov #actividad .content .header .title h3 {
-    color: #DA812D;
-}
-
-.bck-title1, .bck-title-activity {
-    background: #fac592;
-}
-
-.bck-enfasis, strong {
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.content_type_clase_panamericanaprov .logo-publisher {
-    background-image: url(https://admin.blinklearning.com/useruploads/r/a/126184596/activity_other_imported/LOGO-PANAMERICANA-ok.png);
-    height: 50px;
-    width: 400px;
-    margin-left: -100px;
-    margin-right: -100px;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar .dropdown button, .content_type_clase_panamericanaprov .publisher-navbar li {
-    background: #da812d;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar .dropdown button {
-    color: #ffffff;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar .dropdown .caret {
-    border-color: #ffffff transparent transparent
-}
-
-.rf-wordcontainer {
-    font-family: Raleway;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 7rem;
-}
-
-.rf-tgrid {
-    font-family: raleway;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar .dropdown li a {
-    color: #da812d;
-}
-
-.content_type_clase_panamericanaprov .slider-indicators li.active, .content_type_clase_panamericanaprov .publisher-navbar li:hover {
-    background: #da812d;
-}
-
-.dropdown-menu>li>a:hover,
- .dropdown-menu>li>a:focus {
-    text-decoration: none;
-    color: #262626;
-    background-color: #da812d;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar li:hover {
-    background-color: #da812d;
-}
-
-/*seccion*/
-
-.centro h3 {
-    text-align: center;
-}
-
-/*seccion*/
-
-#actividad .carousel-inner .act1 .item-container.aux-fullscreen .class_slide, 
-#actividad .carousel-inner .act1 .item-container.aux-bckg .class_slide {
-    position: relative;
-     background-color: #fbd3ad00; 
-}
-
-/*seccion*/
-
-.act1 h3 {
-text-align: left;
-}
-
-@media screen and (max-width: 768px) {
- img {
-display: none !important;
-}
-}
-
-#actividad .carousel-inner .item-container.aux-bckg.is-right .class_slide {
-    margin-left: 30px;
-    margin-bottom: 70px;
-    padding-bottom: 30px;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar li {
-    color: #da812d;
-    background: transparent;
-    opacity: 100;
-}
-
-.content_type_clase_panamericanaprov .slider-indicators li.active, .content_type_clase_panamericanaprov .publisher-navbar li:hover {
-    background: #da812d;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.dropdown-menu>li>a:hover,
- .dropdown-menu>li>a:focus {
-    text-decoration: none;
-    color: #262626;
-    background-color: #da812d;
-    color: #fff !important;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar .dropdown button {
-    color: #ffffff;
-    border-radius: 10px;
-}
-
-.content_type_clase_panamericanaprov .publisher-navbar {
-    background-image: url(/useruploads/ctx/a/126041106/r/s/32740936/Fondo-Mitos-y-Leyendas.jpg);
-}
-
-.content_type_clase_panamericanaprov .slider-indicators {
-    background-color: transparent;
-}
-
-
-/*TOC*/
-
-/*Pastillas menu*/
-
-#indice .units ul li {
-    border-radius: 0px;
-     background: #F36F23;
-     color: #fff;
-}
-
-#indice .units ul li.active:not(.disabled), 
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
-#indice .units ul li:focus:not(.disabled) {
-    background: transparent;
-    color: #F36F23 !important;
-    outline: 3px solid #F36F23;
-    outline-offset: -3px;
-}
-
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #F36F23;
-}
-
-#indice .units ul li a .title {
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    margin: -21px 0 0 35px;
-    line-height: 18px;
-    display: block;
-}
-
-.foro_wiki_cke_text ul li:before, .texto_curso ul li:before, .workspace:not(.test) ul li ul li:before, .cke_contents ul li:before, .preview ul li:before, .classify-item ul li:before, .popover-template .popover-content ul li:before {
-    content: "";
-    height: 10px;
-    width: 10px;
-    background-color: #da812d;
-    position: absolute;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    margin-top: .4em;
-    margin-left: -24px;
-}
-
-.btn-primary, .btn-primary.disabled {
-    color: #fff;
-    background-color: #f36f23;
-    border-color: transparent;
-    opacity: 1;
-}
-
-#indice .unit-content .header .title {
-    color: #fff;
-    float: left;
-    font-size: 30px;
-    font-weight: 700;
-    height: auto;
-    line-height: 34px;
-    margin: 20px 140px 20px 30px;
-    overflow: hidden;
-    z-index: 1;
-    display: block;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    background: #000000a8;
-    border-radius: 17px;
-    padding: 7px;
-    margin-left: -15px;
-    padding-left: 65px;
-    margin-top: 50px;
-}
-
-/*caja 1*/
-.bck-box.box-1 {
-    border: 2px solid #DA812D;
-    padding: 40px;
-    position: relative;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-/*título slide*/
-.content_type_clase_panamericanaprov #actividad .content .header .title h3:before {
-    content: " ";
-    width: 100px;
-    padding: 5px;
-    position: absolute;
-    margin-top: 40px;
-    border-bottom: 5px solid;
-}
-
-/*imagen aux*/
-#actividad .carousel-inner .item-container.aux-fullscreen .class_slide, 
-#actividad .carousel-inner .item-container.aux-bckg .class_slide {
-    position: relative;
-    background-color: #ffffffe6;
-    padding-right: 20px;
-    padding-bottom: 0;
-    margin-right: 0;
-}
-
-/*test*/
-#actividad .workspace.test .respuestas li {
-    width: 30%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.content ol li, .cke_contents ol li {
-    counter-increment: bck-li-counter 1;
-    position: relative;
-    padding-left: 32px;
-    font-family: 'Raleway';
-    font-size: 18px;
-}
-
-.workspace.test {
-    text-align: initial;
-    padding-left: 30px;
-}
-
-actividad .workspace label {
-    font-weight: normal;
-    font-size: 18px;
-}
-
-.content ol li:before, .cke_contents ol li:before {
-    content: counter(bck-li-counter)' . ';
-    position: absolute;
-    margin-left: -30px;
-    font-weight: bold;
-    font-size: 2.0rem;
-    text-align: right;
-    color: #DA812D;
-    margin-top: -2px;
-}
-
-
-/*Botones*/
-.btn-danger, .btn-danger[disabled] {
-    color: #DA812D;
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 20px;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-   border-radius: 0px;
-  box-shadow: none;
-    text-shadow: none;
-}
-
-.btn-danger:hover,
- .btn-danger:focus,
- .btn-danger:active,
- .btn-danger.active,
- .open .dropdown-toggle.btn-danger {
-    color: #DA812D;
-    background-color: #fff;
-    border-color: #DA812D;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px;
-    background-size: 100% 2px;
-  box-shadow: none;
-    text-shadow: none;
-}
-
-/*reiniciar*/
-.btn-primary, .btn-primary.disabled {
-    border-bottom: transparent;
-    border-top: transparent;
-    border-right: transparentx;
-    border-left:transparent;
-     color: #DA812D;
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 20px;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-   border-radius: 0px;
-  box-shadow: none;
-    text-shadow: none;
-}
-
-.btn-primary:not([disabled]):hover, .btn-primary:not([disabled]):focus, .btn-primary:not([disabled]):active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    color: #DA812D;
-    background-color: #fff;
-    border-color: #DA812D;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px;
-    background-size: 100% 2px;
-   box-shadow: none;
-    text-shadow: none;
-}
-
-.btn-primary[disabled], .btn-primary[disabled]:focus {
-    color: #DA812D;
-    background-color: #fff;
-    border-color: transparent;
-    box-shadow: none;
-    text-shadow: none;
-}
-
-/*solución*/
-
-.btn-solution, .btn-solution.disabled, 
-.btn-solution[disabled],
-.btn-next,
- .btn-next.disabled,
- .btn-next[disabled] {
-     border-bottom: transparent;
-    border-top: transparent;
-    border-right: transparentx;
-    border-left:transparent;
-     color: #DA812D;
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 20px;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-   border-radius: 0px;
-   box-shadow: none;
-    text-shadow: none;
-}
-
-.btn-solution:hover, .btn-solution:focus, .btn-solution:active, .btn-next:hover, .btn-next:focus, .btn-next:active, .open .dropdown-toggle.btn-solution {
-      color: #DA812D;
-    background-color: #fff;
-    border-color: #DA812D;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px;
-    background-size: 100% 2px;
-   box-shadow: none;
-    text-shadow: none;
-}
-
-
-/*slider*/
-.navigator .slider-control.left, .navigator .slider-control.right {
-    color: #595959;
-}
-
-.navigator .slider-control.left:before, .navigator .slider-control.right:after {
-    font-family: 'FontAwesome';
-    position: absolute;
-    margin-top: 0;
-    background: none;
-    color: #666;
-    border-radius: 120px;
-    width: 20px;
-    height: 20px;
-    line-height: 48px;
-    text-align: center;
-    font-size: 22px;
-}
-
-/*contador*/
-#actividad .content .review .attemps span {
-    font-size: 40px;
-    width: auto;
-    height: auto;
-    font-weight: lighter;
-    color: #595959;
-    background-color: #fff;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    text-align: center;
-    padding: 0px 5px;
-    margin: 0px;
-    display: inline-block;
-    line-height: normal;
-}
-
-/*barra de botones*/
-
-#actividad .content .review .attemps {
-    font-size: 16px;
-    display: block;
-    text-align: right;
-}
-
-.main-navigator {
-    padding: 30px 0px 50px;
-    width: 100%;
-    display: none;
-}
-
-#actividad .class_slide .review {
-    margin-top: 50px;
-    text-align: center;
-    text-align: left;
-}
-
-/*actividad verdadero/false*/
-
-#actividad .workspace.true-false li {
-    font-size: 16px;
-}
-
-#actividad .workspace.true-false .tf-option {
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, .radio-option input.filter-radio[type="radio"]+label.filter-label {
-    cursor: pointer;
-    display: inline-block;
-    line-height: 24px;
-    padding-left: 23px;
-    vertical-align: middle;
-    font-size: 16px;
-    font-family: "raleway";
-}
-
-/*navbar*/
-#top-navigator.show_right:after {
-    background: linear-gradient(to left, #e0963947, transparent);
-}
-
-#top-navigator.show_left:before, #top-navigator.show_right:after {
-    color: #e09639;
-    top: 0px;
-}
-
-.bck-enfasis {
-    color: #595959;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.btn-group>.btn:first-child {
-    margin-left: 0;
-    background: #fff;
-}
-
-#actividad .workspace.multiplechoice_horizontal .opcion {
-    display: inline-block;
-    margin: 10px;
-    padding: 0 10px;
-}
-
-/*------ CAMBIOS NAVBAR ------*/
-.content_type_clase_panamericanaprov .publisher-navbar {
-    background-image: url(/useruploads/r/a/206166618/activity_other_imported/Header-Navbar_1400_65.jpg);
-    background-size: cover;
-    background-position-x: right;
-    background-repeat: no-repeat;
-}
-@media (max-width: 650px) {
-.content_type_clase_panamericanaprov .publisher-navbar {
-    background: #D3D3D3;
-  }
-}
-/*Logo en responsive*/
-@media (max-width: 560px) {
-.content_type_clase_panamericanaprov .logo-publisher {
-    display: none;
-  }
-}
 
 h3 {
     text-align: center;
